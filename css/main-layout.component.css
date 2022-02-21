@@ -1,0 +1,82 @@
+.main-container {
+  max-width: 1326px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 1.5rem;
+  z-index: 1;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.header.main {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header.main h1 {
+  color: #9ccfae;
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 3.5rem;
+}
+
+.header.main h2 {
+  color: #26262e;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+.logo {
+  width: 9.5rem;
+  height: auto;
+}
+
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icon {
+  width: 2.2rem;
+  height: auto;
+  margin-right: 0.5rem;
+}
+
+.login p {
+  color: #226646;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-right: 2rem;
+}
+
+.container {
+  max-width: 1100px;
+  margin-top: 140px;
+  overflow: hidden;
+  padding: 0 2rem;
+}

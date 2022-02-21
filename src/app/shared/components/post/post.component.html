@@ -1,0 +1,14 @@
+<div class="post-card" [routerLink]="['/post', post.id]">
+    <div class="card__header">
+        <h2>{{ post.title }}</h2>
+    </div>
+
+    <div class="card__section">
+        <div>{{ post.author }}</div>
+        <small>{{ post.date | date:'dd.MM.yyyy' }}</small>
+    </div>
+
+    <div class="card__content">
+        <quill-view-html [content]="post.text"></quill-view-html>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+<div class="main-container">
+    <header class="main-container__header header-container">
+        <div class="header-container__main">
+            <a routerLink="/"><img class="main__logo" src="assets/img/logo.png" alt="Logo"></a>
+            <div class="main__title">
+                <h1>Healthy Food</h1>
+                <h2>For Healthy Life</h2>
+            </div>
+            
+            <a routerLink="/admin/login" class="main__login">
+                <img class="main__icon" src="assets/img/icon.png" alt="Login">
+                <p>Войти</p>
+            </a>
+        </div>
+    </header>
+
+    <div class="main-container__container">
+        <router-outlet></router-outlet>
+    </div>
+</div>
